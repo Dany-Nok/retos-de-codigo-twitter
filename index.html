@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>(Copia de) Twitter</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul id="menu_twitter">
+          <li><i class="fa fa-twitter fa-2x" aria-hidden="true"></i><a href="#"> Inicio</a></li>
+          <li><a href="#">Sobre Nosotros</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- SECCION FICHA INTRODUCCION -->
+    <section>
+      <div class="intro_coder">
+        <h2>Reto de Código</h2>
+        <h3>Hola,<br>
+        Soy front-end developer Jr.</h3>
+        <br>
+        <hr>
+        <h3><a href="#">Código</a></h3>
+      </div>
+      <!-- SECCION TEXT AREA, BOTON Y CONTENEDOR MENSAJES -->
+      <div class="container_text">
+        <textarea id="txt" rows="10" cols="65" placeholder="¿Qué te gustaría comentar?"></textarea><br>
+        <br>
+        <button type="button" id="button" onclick="add()">Tweet!</button>
+        <span id="char_number">140</span>
+      </div>
+    </section>
+    <!-- CONTENEDOR COMENTARIOS -->
+    <section>
+      <div id="comments"></div>
+    </section>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+  </body>
+</html>
